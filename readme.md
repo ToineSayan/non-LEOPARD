@@ -1,5 +1,13 @@
 # Nonlinear Concept Erasure: a Density Matching Approach
 
+This repository contains the code and data for the experiments included in the paper:
+
+Saillenfest, A. & Lemberger, P. (2025). Nonlinear Concept Erasure: A Density Matching Approach. (to appear in Proceedings of ECAI 2025- 28th European Conference on Artificial Intelligence).
+The full version of the paper (article + supplementary material) can be found [to be updated]
+
+
+## Run the experiments
+
 To run the experiments:
 - Download Bias in Bios
 - Download the top 150k GloVe embeddings (solely used to calculate WS-353)

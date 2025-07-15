@@ -1,0 +1,1 @@
+To download DIAL (Deepmoji), follow the instructions from the KRaM repository: https://github.com/brcsomnath/KRaM/blob/master/data/README.md 
