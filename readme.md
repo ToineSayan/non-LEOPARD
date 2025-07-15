@@ -6,7 +6,7 @@ This repository contains the code and data for the experiments included in the p
 The full version of the paper (article + supplementary material) can be found [to be updated]
 
 
-![](illustration.png){height=10}
+<img src="illustration.png" width="600">
 
 
 ## Run the experiments
