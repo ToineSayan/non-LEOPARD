@@ -1,0 +1,40 @@
+# BASE CONFIG 
+
+seed: 42
+
+# DATA
+dataset_name: null # MANDATORY
+
+# MODEL PARAMETERS
+eraser_model: null # MANDATORY among ['projection', 'cascade_projection', 'MLP', 'LEACE']
+hidden_sizes: null # MANDATORY if eraser_model is 'MLP'
+projection_rank: null # MANDATORY if eraser_model is in ['projection', 'cascade_projection']
+
+# TRAINING PARAMETERS
+batch_size: 2048
+num_epochs: 200
+## model
+eraser_dropout: 0.0 
+## optimizer
+learning_rate: 5.0e-4
+weight_decay: 5.0e-4
+## scheduler
+scheduler_milestones: [100]
+scheduler_gamma: 0.1
+
+# LOSS PARAMETERS
+loss_name: null # MANDATORY erasure loss name among ['MMD', 'FaRM', 'KRaM'] 
+gamma: 100.0
+
+
+# optional loss parameters (and their default value)
+# ------------
+# for KRaM:
+lambda_: 0.7 
+epsilon_squared : 0.5 
+sphere_radius: 1.0 
+# ------------
+# for MMD:
+rbf_n_kernels: 5 # number of kernels in the mixture
+# rbf_kernel_bandwidth: null # bandwidth value (None by default, relies on an adaptive bandwidth)
+
