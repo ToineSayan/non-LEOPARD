@@ -8,7 +8,7 @@ The full version of the paper (article + supplementary material) can be found [t
 
 <img src="illustration.png" width="600">
 
-*$\overline{\mathrm{L}}\mathrm{EOPARD}$ erases a discrete attribute $z$ by learning an orthogonal projection $P$ onto a subspace $\mathcal{V}^\perp$ of the feature space in which the distributions of the projected samples $x^\perp = Px$ are indistinguishable across values of the protected attribute to erase $z$.*
+$\overline{\mathrm{L}}\mathrm{EOPARD}$ erases a discrete attribute $z$ by learning an orthogonal projection $P$ onto a subspace $\mathcal{V}^\perp$ of the feature space in which the distributions of the projected samples $x^\perp = Px$ are indistinguishable across values of the protected attribute to erase $z$.
 
 
 ## Run the experiments
