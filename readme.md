@@ -3,7 +3,7 @@
 This repository contains the code and data for the experiments included in the paper:
 
 **Saillenfest, A. & Lemberger, P. (2025). Nonlinear Concept Erasure: A Density Matching Approach.** (to appear in Proceedings of ECAI 2025- 28th European Conference on Artificial Intelligence).<br/>
-The full version of the paper (article + supplementary material) can be found [to be updated]
+The full version of the paper (article + supplementary material) can be found here: https://arxiv.org/abs/2507.12341
 
 
 <img src="illustration.png" width="600">
